@@ -4,7 +4,7 @@ This Dockerfile sets up a simple and lightweight docker image for Elasticsearch 
 
 ### Usage
 
-docker run -d -p 9200:9200 -p 5601:5601 nshou/elasticsearch-kibana
+docker run -d -p 9200:9200 -p 5601:5601 stevepop/es-kibana
 
 Once complete, you can then connect to Elasticsearch by navigating to `localhost:9200` and its Kibana front-end at `localhost:5601`.
 
